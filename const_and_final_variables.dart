@@ -1,9 +1,12 @@
-void main() {
-  var v1 = 9;
-  var v2 = 10;
+int Epic() {
+  return 1;
+}
 
-  v1 = 8;
-  v2 = 2;
+void main() {
+  //final var can be assigned a value at run time
+  final v1 = Epic();
+  //const var has to assigned a value before compilation
+  const v2 = 10;
 
   print(v1);
   print(v2);
