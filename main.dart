@@ -1,3 +1,5 @@
+enum SuperHeroes { Yoda, Batman, Hulk, HarryPotter }
+
 void main() {
   print("Hey bro can you help me out");
   //this is how we write comments in dart
@@ -11,4 +13,8 @@ void main() {
 
   epicMap.forEach((key, value) => print(
       "$key and $value")); //loop thru every single value and print the key&val
+
+  //ENUMS
+  print(SuperHeroes.HarryPotter);
+  print(SuperHeroes.Batman.index);
 }
